@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Form Registration</h1>
+    <form class="userForm">
+      <div>
+        <label>Name : </label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <div>
+        <label>Email : </label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <div>
+        <label>Password : </label>
+        <input type="password" id="password" name="password" />
+      </div>
+      <div>
+        <label>Country : </label>
+        <select name="country" id="country">
+          <option value="">select a country</option>
+          <option value="portugal">Portugal</option>
+          <option value="bangladesh">Bangladesh</option>
+        </select>
+      </div>
+      <div>
+        <label>Message : </label>
+        <textarea name="mess" id="message" cols="20" rows="5"></textarea>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
+    <script src="../dist/index.js"></script>
+
+    <script>
+      let student1 = {
+        name: "belal",
+        college: "IIT",
+      };
+    </script>
+  </body>
+</html>
